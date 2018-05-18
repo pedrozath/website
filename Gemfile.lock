@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/pedrozath/jekyll-haml.git
+  revision: 3e2d3a1aafb9e71d976cf223fe2f05230fba70f5
+  specs:
+    jekyll-haml (0.1.6)
+      haml (>= 3.0.0)
+      jekyll (>= 3.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -15,7 +23,7 @@ GEM
     execjs (2.7.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    haml (5.0.3)
+    haml (5.0.4)
       temple (>= 0.8.0)
       tilt
     http_parser.rb (0.6.0)
@@ -35,9 +43,6 @@ GEM
       coffee-script-source (~> 1.11.1)
     jekyll-feed (0.9.2)
       jekyll (~> 3.3)
-    jekyll-haml (0.1.5)
-      haml (>= 3.0.0)
-      jekyll (>= 3.3.0)
     jekyll-livereload (0.2.2)
       em-websocket (~> 0.5)
       jekyll (~> 3.0)
@@ -74,9 +79,9 @@ DEPENDENCIES
   jekyll (~> 3.6.0)
   jekyll-coffeescript
   jekyll-feed (~> 0.6)
-  jekyll-haml
+  jekyll-haml!
   jekyll-livereload
   tzinfo-data
 
 BUNDLED WITH
-   1.16.0.pre.2
+   1.16.1
